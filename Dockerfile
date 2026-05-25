@@ -1,4 +1,4 @@
-rfile# Use Ubuntu as the base image
+# Use Ubuntu as the base image
 FROM ubuntu:22.04
 
 # Install required packages
@@ -16,4 +16,4 @@ COPY entrypoint.sh /usr/local/bin/entrypoint.sh
 RUN chmod +x /usr/local/bin/entrypoint.sh
 
 # Set the default command
-ENTRYPOINT ["/usr/local/bin/entrypoint
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
