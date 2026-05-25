@@ -1,4 +1,4 @@
-n.ymlname: Test Custom Action
+name: Linkedin Test Custom Action
 
 on: 
   push:
